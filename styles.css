@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.logoresize {
+  width: 100px;
+  height: 100px;
+}
+
+.hero-banner {
+  background-image: url("img/hero-banner.jpg");
+}
+
+.column-3 {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-4 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row-4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
